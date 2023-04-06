@@ -1,0 +1,90 @@
+body {
+	margin: 20;
+	padding: 10;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+	font-family:Sans-serif;
+	line-height: 1.5em;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px; 
+	background: #F1F1F1;
+}
+
+#logo {
+	color: #F6AF5B;
+	padding:20px;
+	float:left;
+}
+
+main {
+	position: fixed;
+	top: 100px; /* Set this to the height of the header */
+	left: 0; 
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: #fff;
+}
+
+h1 {
+	color: #F6AF5B;
+	text-align: center;
+}
+
+.inner-box {
+	margin: 25px; /* Provides padding for the content */
+}
+
+.inner-add {
+	width: 40%;
+	margin: auto;
+}
+
+table{
+	border: 1px solid;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	background: #F1F1F1;
+	color: black;
+}
+
+th, td {
+	border: 1px solid;
+	padding: 5px 0;
+}
+
+a, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+.button {
+	color: black;
+	background-color: #E0DCDC;
+	padding: 5px 8px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.inner-button {
+	font-style: bold;
+}
+
+.inner-button:hover {
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
