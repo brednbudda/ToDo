@@ -1,5 +1,5 @@
 # ToDo
-To Do List Application based using JSP/Servlets
+To Do List Application using JSP/Servlets
 
 Application that accepts items in a to-do list format, where the user can add, edit, mark as complete, or delete the tasks on the list.
 
